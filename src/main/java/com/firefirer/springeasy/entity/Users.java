@@ -33,7 +33,7 @@ public class Users {
     private String status;
 
     @Column(name = "roles")
-    private String[] roles;
+    private int roles;
 
     @Column(name = "binding")
     private Boolean binding;
@@ -102,11 +102,11 @@ public class Users {
         this.status = status;
     }
 
-    public String [] getRoles() {
+    public int getRoles() {
         return roles;
     }
 
-    public void setRoles(String [] roles) {
+    public void setRoles(int roles) {
         this.roles = roles;
     }
 
