@@ -6,7 +6,7 @@ public class UserProfile {
     private String nickName;
     private String bind;
     private Boolean authOtp;
-    private String [] roles;
+    private String[] roles;
 
     UserProfile(String userName, String nickName, String bind, Boolean authOtp, String[] roles) {
         this.userName = userName;
